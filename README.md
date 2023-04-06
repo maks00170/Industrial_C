@@ -7,4 +7,4 @@
 - Выполнить cmake -Bbuild -H. -DBUILD_TESTING=OFF
 - Выполнить в папке build - скрипт make
 - запуск unit test - скрипт ../bin/raiiaction_test
-- запуск integrate test - скрипт python3 ../testsuite/projects/main/integrete_tests.py (из папки bin)
+- запуск integrate test (из папки bin) - скрипт python3 ../testsuite/projects/main/integrete_tests.py
