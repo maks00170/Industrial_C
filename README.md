@@ -2,7 +2,7 @@
 # Запуск программы.
 
 - Склонировать в папку third-party/Catch2/ https://github.com/catchorg/Catch2
-- Перейти в папку third-party/Catch2/
+- Создать в папку third-party/Catch2/
 - Выполнить make
 - Выполнить cmake -Bbuild -H. -DBUILD_TESTING=OFF
 - Выполнить в папке build - скрипт make
