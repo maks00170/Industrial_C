@@ -7,7 +7,7 @@ using funcT = std::function<void ()>;
 class RAIIAction
 {
 public:
-	RAIIAction(funcT callback) : _callback(callback) {}; // break
+	RAIIAction(funcT callback) : _callback(callback) {};
 	~RAIIAction();
 private:
 	funcT _callback;
