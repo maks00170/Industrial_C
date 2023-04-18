@@ -43,3 +43,17 @@ TEST_CASE("test", "[1]")
 	delete[] ptr;
 
 }
+
+TEST_CASE("test", "[2]")
+{
+    int* ptr = new int[7];
+    for (size_t i=0; i<7; ++i)
+    {
+        ptr[i] = i * i;
+    }
+    {
+        CHECK_THROWS(RAIIAction(nullptr));
+    }
+    delete[] ptr;
+
+}
