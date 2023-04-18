@@ -3,8 +3,7 @@
 
 - Создать папку third-party/Catch2/
 - Склонировать в папку third-party/Catch2/ https://github.com/catchorg/Catch2
-- Выполнить make
 - Выполнить cmake -Bbuild -H. -DBUILD_TESTING=OFF
 - Выполнить в папке build - скрипт make
 - запуск unit test - скрипт ../bin/raiiaction_test
-- запуск integrate test (из папки bin) - скрипт python3 ../testsuite/projects/main/integrete_tests.py
+- запуск integrate test (из папки bin) - скрипт python3 ../testsuite/projects/main/integrate_tests.py
